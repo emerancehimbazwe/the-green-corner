@@ -621,3 +621,23 @@ img {
         padding: 18px;
     }
 }
+/* Improve spacing on full article pages */
+.article-page .article-content > .article-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 6px;
+    margin: 18px 0 24px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.article-page .article-content > .article-meta time,
+.article-page .article-content > .article-meta span {
+    display: inline-block;
+}
