@@ -1,58 +1,40 @@
 # The Green Corner
 
-A modern, responsive plant-care blog that helps readers learn how to care for indoor plants and create greener living spaces.
+The Green Corner is a responsive plant care and gardening website.
 
-## About the Project
+## Project Versions
 
-The Green Corner shares practical plant-care articles in a clean, nature-inspired design. Readers can browse articles, explore plant-care topics, and open a detailed article about Monstera plants.
+This repository contains two versions of the website:
+
+### 1. Plain CSS Version
+Located in `plain-css/`.
+
+Built using:
+- HTML5
+- CSS3
+
+### 2. Tailwind CSS Version
+Located in `tailwind/`.
+
+Built using:
+- HTML5
+- Tailwind CSS
+- JavaScript
+- Vite
 
 ## Features
 
-- Responsive homepage for desktop, tablet, and mobile screens
-- Custom banner with a plant-inspired design
-- Six plant-care article cards
-- Article categories and reading information
-- Dedicated Monstera plant-care article page
-- Locally stored images
-- Navigation links between the homepage and article page
-- HTML semantic elements and image alternative text
+- Responsive homepage
+- Plant care categories
+- Gardening and plant article cards
+- Reusable plant images
+- About section
+- Mobile-friendly layout
 
-## Technologies Used
+## How to Run the Tailwind Version
 
-- HTML5
-- CSS3
-- Responsive web design
-- Git and GitHub
+1. Open the `tailwind` folder in your terminal.
+2. Install dependencies:
 
-## Project Structure
-
-```text
-the-green-corner/
-├── index.html
-├── article.html
-├── style.css
-├── README.md
-└── images/
-    ├── hero-plants.jpg
-    ├── monstera.jpg
-    ├── watering-plants.jpg
-    ├── succulents.jpg
-    ├── yellow-leaves.jpg
-    ├── home-decor.jpg
-    └── gardening-tools.jpg
-```
-
-## How to Run the Website
-
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. Select an article to read more about plant care.
-
-## Project Goal
-
-The goal is to create a professional, responsive blog website using HTML and CSS, with a custom banner, article cards, and a dedicated article page.
-
-## Author
-
-The Green Corner project was created as a web development assessment.
+   ```bash
+   npm install
